@@ -1,8 +1,10 @@
 import os
 import sys
-import pygame as pg
 import random
 import time
+import pygame as pg
+
+
 
 WIDTH, HEIGHT = 1100, 650
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
