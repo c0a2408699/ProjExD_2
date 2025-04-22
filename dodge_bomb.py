@@ -103,16 +103,9 @@ def main():
         if not check_bound(bb_rct)[1]:
             vy=vy*-1
         
-            
-        
-            
-        
-
         pg.display.update()
         tmr += 1
         clock.tick(60)
-
-
 if __name__ == "__main__":
     pg.init()
     main()
